@@ -1,0 +1,32 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <form>
+                <input type="color" id="color-picker">
+                  <select name="modes-list" id="modes-selector">
+                    <option value="Monochrome">Monochrome</option>
+                    <option value="Monochrome-Dark">Monochrome - Dark</option>
+                    <option value="Monochrome-Light">Monochrome - Light</option>
+                    <option value="Analogic">Analogic</option>
+                    <option value="Complement">Complement</option>
+                    <option value="Analogic-Complement">Analogic - Complement</option>
+                    <option value="Triad">Triad</option>
+                    </select>
+                <input type="submit" value="Get color scheme" id="get-btn">
+            </form>
+        </header>
+        <main class="color-div-container">
+            <div class="color-div" id="color-div-1"><p class="color-code" id="color-code-1"></p></div>
+            <div class="color-div" id="color-div-2"><p class="color-code" id="color-code-2"></p></div>
+            <div class="color-div" id="color-div-3"><p class="color-code" id="color-code-3"></p></div>
+            <div class="color-div" id="color-div-4"><p class="color-code" id="color-code-4"></p></div>
+            <div class="color-div" id="color-div-5"><p class="color-code" id="color-code-5"></p></div>
+        </main>
+        <script src="index.js" type="module"></script>
+        <script src="https://kit.fontawesome.com/2ab9f7d9e8.js" crossorigin="anonymous"></script>
+    </body>
+</html>
